@@ -1,0 +1,13 @@
+
+.loginbox{
+    width:520px;
+    height:660px;
+    background-color: black;
+    color:#fff ;
+    top: 10%;
+    left: 15%;
+    position: absolute;
+    box-sizing: border-box;
+    border-radius: 5%;
+    padding: 110px 50px;
+}

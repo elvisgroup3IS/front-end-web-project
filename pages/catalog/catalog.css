@@ -1,0 +1,55 @@
+body{
+   background:#efeeee;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ body{
+    font-family: 'Montserrat', sans-serif;
+    color: #555;
+ }
+ 
+#products{
+    display: grid;
+   
+    grid-template-columns: repeat(auto-fit, minmax(350px, auto)); 
+    grid-gap: 50px;
+    margin: 50px auto;
+    max-width: 1240px;
+    padding: 20px;
+    list-style: none;
+ }
+ .product{
+    padding: 10px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+ }
+ .product img{
+    width: 100%;
+    display: block;
+ }
+ .product #title{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+ }
+
+ .product #title a{
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+ }
+
+ .product .description{
+    padding: 0 20px 20px 20px;
+    line-height: 22px;
+ }
+ .product .date{
+    font-weight: 600;
+    padding: 0 20px 20px 20px;
+    font-family: sans-serif;
+    text-shadow: black;
+ }
+
